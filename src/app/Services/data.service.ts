@@ -16,4 +16,5 @@ export class DataService {
   getPosts(): Observable<any> {
     return this.http.get(this.apiUrl);
   }
+
 }
